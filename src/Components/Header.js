@@ -56,6 +56,19 @@ function Header() {
                 </div>
             </header>
 
+            <div class="main_cta">
+                <article class="main_cta_content">
+                    <div class="main_cta_content-spcaer">
+                        <header>
+                            <h1 id="teste">Aqui você aprende tudo o que é necessário para trabalhar como um webmaster fullstack</h1>
+                        </header>
+
+                        <p>Domine o HTML5 e o CSS3 de uma vez por todas</p>
+                        <p><a href="#" class="btn">Saiba Mais</a></p>
+                    </div>
+                </article>
+            </div>
+
         </>
 
     )

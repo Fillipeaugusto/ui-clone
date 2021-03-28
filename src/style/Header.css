@@ -44,6 +44,7 @@
     transition: 0.5;
     font-family: 'Roboto',sans-serif;
     text-decoration: none;
+    transition:0.4s;
   }
   
   .main_header_content_menu ul li a:hover {
@@ -110,6 +111,7 @@
   text-align: center;
   color: #D36833;
   padding: 10px 0;
+  
 }
 
 .main_header_content_menu_mobile_obj_sub>li a:hover {
@@ -122,6 +124,64 @@
 .main_header_content_menu_mobile_obj_active {
   background-color: #fff;
 }
+
+
+.main_cta {
+  width: 100%;
+  background-image: url('../img/bg_main_home.png');
+  background-color: #2d3142;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.main_cta .main_cta_content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.main_cta .main_cta_content p {
+  font-size: 1.875em;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Roboto';
+}
+
+.main_cta .main_cta_content .btn {
+  background-color: #D36833;
+  font-size: 0.8em;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-decoration: none;
+  transition:0.6s;
+}
+
+.main_cta .main_cta_content .btn:hover {
+  background-color: #aa4e20;
+ 
+}
+
+
+.main_cta .main_cta_content .main_cta_content-spcaer {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 160px 40px;
+  font-family:'Roboto';
+}
+
 
 @media (max-width: 64em) {
     .main_cta .main_cta_content h1 {
