@@ -13,7 +13,6 @@ function Header() {
                     <a href="/" className="logo">
                         <img src={Logo} alt="Bem vindo ao projeto prático HTML5 e CSS3"
                             title="Bem vindo ao projeto prático HTML5 e CSS3" />
-
                     </a>
                     <nav className="main_header_content_menu">
                         <ul>

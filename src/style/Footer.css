@@ -1,0 +1,12 @@
+.main_footer_rights {
+    width: 100%;
+    background-color: #F7F7F7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-top: 1px solid #EBEBEB;
+    font-size: 0.9em;
+    color: #666;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+  }
