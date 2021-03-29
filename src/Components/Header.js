@@ -34,9 +34,10 @@ function Header() {
                     <nav className="main_header_content_menu_mobile">
 
                         <ul>
-                            <li><span className="main_header_content_menu_mobile_obj icon-menu icon-notext"> <GiHamburgerMenu size={22} /></span>
-                                <ul className="main_header_content_menu_mobile_obj_sub ds_none">
-                                    <li>
+                            <li><span className="main_header_content_menu_mobile_obj icon-menu icon-notext">
+                                <GiHamburgerMenu size={22} /></span>
+                                <ul id="content" className="main_header_content_menu_mobile_obj_sub off">
+                                    <li >
                                         <a href="/">Home</a>
                                     </li>
                                     <li>
@@ -48,6 +49,7 @@ function Header() {
                                     <li>
                                         <a href="/">Contato</a>
                                     </li>
+
                                 </ul>
                             </li>
                         </ul>

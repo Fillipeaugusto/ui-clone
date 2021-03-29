@@ -123,21 +123,3 @@
     font-size: 2.4em;
     margin-bottom: 20px;
   }
-
-  @media (max-width: 48em) {
-  
-    .main_course_rating_content_title h2 {
-      font-size: 2em;
-    }
-
-    .main_course_rating_content_title h2 {
-      font-size: 2em;
-    }
-  }
-
-
-  @media (max-width:40em){
-    .main_course_rating_content_title h2 {
-      font-size: 1.6em;
-    }
-  }
