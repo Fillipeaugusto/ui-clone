@@ -4,10 +4,9 @@ function Coments() {
     return (
 
 
-        <article itemprop="review" >
+        <article>
             <header>
-                <h3 itemprop="author"><span itemprop="name">Gustavo
-      Web</span></h3>
+                <h3><span>Gustavo Web</span></h3>
                 <p>10/01/2018</p>
                 <ReactStars count={5} size={24} value={5} edit={false} activeColor="#ffd700" />
             </header>

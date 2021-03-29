@@ -56,16 +56,16 @@ function App() {
       </article>
 
       <About />
-      <div class="main_course_fullWidth">
-        <div class="main_course_rating_content">
-          <article class="main_course_rating_content_title">
+      <div className="main_course_fullWidth">
+        <div className="main_course_rating_content">
+          <article className="main_course_rating_content_title">
 
             <header>
               <h2>Curso considerado 5 estrelas por nossos 100 alunos matriculados </h2>
 
             </header>
           </article>
-          <section class="main_course_rating_content_comment">
+          <section className="main_course_rating_content_comment">
             <header>
               <h2>Veja o que estão falando sobre o curso</h2>
             </header>
@@ -80,16 +80,16 @@ function App() {
 
       </div>
 
-      <div class="main_school">
-        <section class="main_school_content">
+      <div className="main_school">
+        <section className="main_school_content">
 
-          <header class="main_school_header">
+          <header className="main_school_header">
             <h1>Bem vindo a <span>UpInside Treinamentos</span></h1>
             <p >A sua escola de Programação e Marketing Digital</p>
           </header>
 
-          <div class="main_school_content_left">
-            <article class="main_school_content_left_content">
+          <div className="main_school_content_left">
+            <article className="main_school_content_left_content">
               <header>
                 <p>
                   <span><FaFacebookF size={20} /> <a href="/">Facebook</a></span>
@@ -114,7 +114,7 @@ function App() {
               </p>
             </article>
 
-            <section class="main_school_list">
+            <section className="main_school_list">
               <header>
                 <h2>Confira nossos Prêmios</h2>
               </header>
@@ -163,14 +163,14 @@ function App() {
 
             </section>
           </div>
-          <div class="main_school_content_right">
+          <div className="main_school_content_right">
             <img src={Upinside} alt="UpInside Treinamentos" title="UpInside Treinamentos" />
           </div>
 
-          <article class="main_school_address">
+          <article className="main_school_address">
             <header>
               <h2>Nos Encontre</h2>
-              <p class="icon-map2" ><span>Rodovia DR. Antônio Luiz Moura Gonzaga, 3339
+              <p className="icon-map2" ><span>Rodovia DR. Antônio Luiz Moura Gonzaga, 3339
                 </span> - <span>88048-301</span> - Campeche - <span>Florianópolis</span>/
                 <span>SC</span> - <span>+55 48 3371-5879</span>
                 <span >cursos@upinside.com.br</span></p>
@@ -179,21 +179,21 @@ function App() {
         </section>
       </div>
 
-      <section class="main_tutor">
-        <div class="main_tutor_content">
+      <section className="main_tutor">
+        <div className="main_tutor_content">
           <header>
             <h1>Conheça o <span>Gustavo Web</span>, seu tutor nesse Curso</h1>
             <p>Eu vou te ajudar a criar sua webpage com html5 e css3</p>
           </header>
-          <div class="main_tutor_content_img">
+          <div className="main_tutor_content_img">
             <img src={TeacherImage} alt="Imagem do Gustavo Web" title="Imagem do Gustavo Web" />
           </div>
 
-          <article class="main_tutor_content_history">
+          <article className="main_tutor_content_history">
             <header>
               <h2>Formado em Ciência da computação e Apaixonado por web</h2>
             </header>
-            <p itemprop="description">Como muitos, comecei na programação por conta dos jogos! Com o tempo, o amor pela
+            <p>Como muitos, comecei na programação por conta dos jogos! Com o tempo, o amor pela
             programação foi
             crescendo
             a
@@ -202,7 +202,7 @@ function App() {
               conhecimento com todos os alunos da UpInside Treinamentos</p>
           </article>
 
-          <section class="main_tutor_social_network">
+          <section className="main_tutor_social_network">
             <header>
               <h2>Me siga nas redes socias</h2>
             </header>
@@ -221,7 +221,7 @@ function App() {
 
             <article>
               <header>
-                <h3><a clahref="/"> <FaGooglePlusSquare size={18} className="social-icon" /> Meu Google+</a></h3>
+                <h3><a href="/"> <FaGooglePlusSquare size={18} className="social-icon" /> Meu Google+</a></h3>
               </header>
             </article>
             <article>
@@ -233,14 +233,14 @@ function App() {
         </div>
       </section>
 
-      <section class="main_optin_footer">
-        <div class="main_optin_footer_content">
+      <section className="main_optin_footer">
+        <div className="main_optin_footer_content">
           <header>
             <h1>Quer receber nosso conteudo exclusivo? Assine nossa lista VIP :)</h1>
           </header>
           <article>
             <header>
-              <h2><a href="#" class="btn"> Etrar para a Lista VIP</a></h2>
+              <h2><a href="/" className="btn"> Etrar para a Lista VIP</a></h2>
             </header>
           </article>
         </div>

@@ -5,15 +5,15 @@ import Logo from '../img/logo.png';
 function About() {
     return (
 
-        <section class="main_course">
-            <header class="main_course_header">
+        <section className="main_course">
+            <header className="main_course_header">
                 <img src={Logo} alt="Curso HTML5 e CSS3 Essentials" title="Curso HTML5 e CSS3 Essentials" />
-                <h1 class="icon-books" >HTML5 e CSS3 Essentials</h1>
+                <h1 className="icon-books" >HTML5 e CSS3 Essentials</h1>
                 <p>Aprenda a trabalhar com HTML5 e CSS3 para desenvolver seus projetos e entregar
             páginas que estejam dentro dos padrões da WEB seguindo as boas práticas!</p>
             </header>
 
-            <div class="main_course_content">
+            <div className="main_course_content">
                 <article>
                     <header>
                         <h2>Curso 100% Online</h2>

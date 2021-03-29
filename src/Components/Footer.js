@@ -3,12 +3,12 @@ import '../style/Footer.css';
 function Footer() {
     return (
         <>
-            <section class="main_footer">
+            <section className="main_footer">
                 <header>
                     <h1>Quer saber mais?</h1>
                 </header>
 
-                <article class="main_footer_our_pages">
+                <article className="main_footer_our_pages">
                     <header>
                         <h2>Nossas Páginas</h2>
                     </header>
@@ -22,7 +22,7 @@ function Footer() {
 
                 </article>
 
-                <article class="main_footer_links">
+                <article className="main_footer_links">
                     <header>
                         <h2>Links úteis</h2>
                     </header>
@@ -35,7 +35,7 @@ function Footer() {
 
                 </article>
 
-                <article class="main_footer_about">
+                <article className="main_footer_about">
                     <header>
                         <h2>sobre o projeto</h2>
                     </header>
@@ -49,7 +49,7 @@ function Footer() {
 
             </section>
 
-            <footer class="main_footer_rights">
+            <footer className="main_footer_rights">
                 <p>Todos os Direitos Reservados a Upinside Treinamentos</p>
             </footer>
         </>
