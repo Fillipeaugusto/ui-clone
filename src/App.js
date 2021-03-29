@@ -240,7 +240,7 @@ function App() {
           </header>
           <article>
             <header>
-              <h2><a href="/" className="btn"> Etrar para a Lista VIP</a></h2>
+              <h2><a href="/" className="btn"> Entrar para a Lista VIP</a></h2>
             </header>
           </article>
         </div>

@@ -23,7 +23,7 @@ function ArticlesCards() {
                     <span className="ds_none"></span>
                 </p>
                 <time>08/03/2021</time>
-                <time>08/03/2021</time>
+
             </div>
         </article>
 
